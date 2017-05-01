@@ -1,0 +1,33 @@
+/* docs overrides */
+.a {
+  background-color: #fff;
+  border-color: #d3e0e9;
+}
+
+
+/* general overrides */
+.b .c {
+  line-height: 1.4;
+}
+.d .close {
+  margin-top: 4px;
+}
+strong {
+  font-weight: bold;
+}
+
+/* misc */
+.j {
+  max-width: 280px;
+  margin-top: -60px;
+}
+.k {
+  margin-right: 10px;
+}
+.l {
+  width: 40%;
+  display: inline-block;
+}
+.l img {
+  width: 100%;
+}

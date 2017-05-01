@@ -1,0 +1,28 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #000000;
+}
+
+.logo_left {
+    float: left;
+}
+
+.links_right { 
+    float: right;
+}
+
+a:link {
+    color: #808080;
+}
