@@ -20,15 +20,15 @@ if (isset($_POST['submit'])) {
     //$mail->SMTPDebug = 3;                               // Enable verbose debug output
     
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'mail.thanksfrom.me';  // Specify main and backup SMTP servers
+    $mail->Host = 'host';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'feedback@thanksfrom.me';                 // SMTP username
-    $mail->Password = 'bNm)cs&0@kNw';                           // SMTP password
+    $mail->Username = 'username';                 // SMTP username
+    $mail->Password = 'password';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 25;                                    // TCP port to connect to
     
-    $mail->setFrom('feedback@thanksfrom.me', 'Feedback');
-    $mail->addAddress('chadhauf@gmail.com');     // Add a recipient
+    $mail->setFrom('email address', 'Feedback');
+    $mail->addAddress('recipient');     // Add a recipient
     
     $mail->isHTML(true);                                  // Set email format to HTML
 
